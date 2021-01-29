@@ -1,0 +1,4 @@
+#!/bin/bash
+0 search/16 holberton.mgc
+!:mine text/x-HOLBERTON
+file -C -m holberon.mgc 
