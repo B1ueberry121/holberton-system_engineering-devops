@@ -1,2 +1,2 @@
 #!/bin/bash
-wc -l Hello, World | cat
+wc -l "Hello, World"
