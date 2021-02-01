@@ -1,2 +1,2 @@
 #!/bin/bash
-cp --copy-contents iacta | tail -n 1
+cp --copy-contents > iacta | tail -n 1
