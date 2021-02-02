@@ -1,2 +1,2 @@
 #!/bin/bash
-su Linux | echo hello user
+sudo chown Linux | echo hello user
