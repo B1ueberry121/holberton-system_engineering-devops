@@ -1,2 +1,2 @@
 #!/bin/bash
-echo hello user
+su Linux | echo hello user
