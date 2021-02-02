@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo Linux -n hello user
+id Linux | echo hello user
