@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $HOSTNAME Linux hello user
+sudo Linux -n hello user
