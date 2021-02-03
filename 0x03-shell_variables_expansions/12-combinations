@@ -1,2 +1,2 @@
 #!/bin/bash
-echo o{a..n} o{p,,z} | fmt -w 1
+prinf {a..z}{a..z} | grep -v
