@@ -1,2 +1,2 @@
 #!/bin/bash
-prinf {a..z}{a..z} | grep -v
+printf {a..z}{a..z} | grep -v
