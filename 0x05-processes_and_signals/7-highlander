@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displays 2 phrases indefinitely but resisting Ctrl + c
+trap 'echo "I am invincible!!!"' SIGTERM
+x=0
+while [ $x -lt 1 ]; do
+		echo "To infinity and beyond"
+		sleep 2
+done
