@@ -1,4 +1,7 @@
-# Automates for ssh server
+# Automation to connect to server with puppet
+
+include stdlib
+
 file_line { 'BatchMode':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
@@ -8,5 +11,5 @@ file_line { 'BatchMode':
 file_line { 'IdentifyFile':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
-  line   => 'PasswordAuthentication no',
-} 
+  line   => 'IdentityFile ~/.ssh/school',
+}
