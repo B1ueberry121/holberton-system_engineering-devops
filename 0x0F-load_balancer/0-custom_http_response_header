@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Configures a new Ubuntu server with a custom http header response
+apt-get -y update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+sudo sed -i "46i\add_header X-Served-By $HOSTNAME ;" /etc/nginx/sites-available/default
+service nginx restart
