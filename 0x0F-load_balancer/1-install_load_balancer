@@ -11,6 +11,6 @@ frontend load_balancer
 
 backend webserver
     balance riundrobin
-    server 2710-web-01 34.138.133.115 check
-    server 2710-web-02 52.90.2.123 check" >> /etc/haproxy/haproxy.cfg
+    server 2710-web-01 34.138.133.115:80 check
+    server 2710-web-02 52.90.2.123:80 check" >> /etc/haproxy/haproxy.cfg
 service haproxy restart
